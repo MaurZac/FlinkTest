@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C52042F225BBCE090012C805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52042F125BBCE090012C805 /* AppDelegate.swift */; };
+		C52042F425BBCE090012C805 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52042F325BBCE090012C805 /* SceneDelegate.swift */; };
+		C52042F625BBCE090012C805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52042F525BBCE090012C805 /* ViewController.swift */; };
+		C52042F925BBCE090012C805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52042F725BBCE090012C805 /* Main.storyboard */; };
+		C52042FB25BBCE0B0012C805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52042FA25BBCE0B0012C805 /* Assets.xcassets */; };
+		C52042FE25BBCE0B0012C805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52042FC25BBCE0B0012C805 /* LaunchScreen.storyboard */; };
+		C520430925BBCE0B0012C805 /* FlinkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520430825BBCE0B0012C805 /* FlinkTestTests.swift */; };
+		C520431425BBCE0B0012C805 /* FlinkTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520431325BBCE0B0012C805 /* FlinkTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C520430525BBCE0B0012C805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52042E625BBCE090012C805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C52042ED25BBCE090012C805;
+			remoteInfo = FlinkTest;
+		};
+		C520431025BBCE0B0012C805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52042E625BBCE090012C805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C52042ED25BBCE090012C805;
+			remoteInfo = FlinkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C52042EE25BBCE090012C805 /* FlinkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlinkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52042F125BBCE090012C805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C52042F325BBCE090012C805 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C52042F525BBCE090012C805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C52042F825BBCE090012C805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C52042FA25BBCE0B0012C805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C52042FD25BBCE0B0012C805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C52042FF25BBCE0B0012C805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C520430425BBCE0B0012C805 /* FlinkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlinkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C520430825BBCE0B0012C805 /* FlinkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlinkTestTests.swift; sourceTree = "<group>"; };
+		C520430A25BBCE0B0012C805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C520430F25BBCE0B0012C805 /* FlinkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlinkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C520431325BBCE0B0012C805 /* FlinkTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlinkTestUITests.swift; sourceTree = "<group>"; };
+		C520431525BBCE0B0012C805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C52042EB25BBCE090012C805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520430125BBCE0B0012C805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520430C25BBCE0B0012C805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C52042E525BBCE090012C805 = {
+			isa = PBXGroup;
+			children = (
+				C52042F025BBCE090012C805 /* FlinkTest */,
+				C520430725BBCE0B0012C805 /* FlinkTestTests */,
+				C520431225BBCE0B0012C805 /* FlinkTestUITests */,
+				C52042EF25BBCE090012C805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C52042EF25BBCE090012C805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52042EE25BBCE090012C805 /* FlinkTest.app */,
+				C520430425BBCE0B0012C805 /* FlinkTestTests.xctest */,
+				C520430F25BBCE0B0012C805 /* FlinkTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52042F025BBCE090012C805 /* FlinkTest */ = {
+			isa = PBXGroup;
+			children = (
+				C52042F125BBCE090012C805 /* AppDelegate.swift */,
+				C52042F325BBCE090012C805 /* SceneDelegate.swift */,
+				C52042F525BBCE090012C805 /* ViewController.swift */,
+				C52042F725BBCE090012C805 /* Main.storyboard */,
+				C52042FA25BBCE0B0012C805 /* Assets.xcassets */,
+				C52042FC25BBCE0B0012C805 /* LaunchScreen.storyboard */,
+				C52042FF25BBCE0B0012C805 /* Info.plist */,
+			);
+			path = FlinkTest;
+			sourceTree = "<group>";
+		};
+		C520430725BBCE0B0012C805 /* FlinkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C520430825BBCE0B0012C805 /* FlinkTestTests.swift */,
+				C520430A25BBCE0B0012C805 /* Info.plist */,
+			);
+			path = FlinkTestTests;
+			sourceTree = "<group>";
+		};
+		C520431225BBCE0B0012C805 /* FlinkTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C520431325BBCE0B0012C805 /* FlinkTestUITests.swift */,
+				C520431525BBCE0B0012C805 /* Info.plist */,
+			);
+			path = FlinkTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C52042ED25BBCE090012C805 /* FlinkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C520431825BBCE0B0012C805 /* Build configuration list for PBXNativeTarget "FlinkTest" */;
+			buildPhases = (
+				C52042EA25BBCE090012C805 /* Sources */,
+				C52042EB25BBCE090012C805 /* Frameworks */,
+				C52042EC25BBCE090012C805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlinkTest;
+			productName = FlinkTest;
+			productReference = C52042EE25BBCE090012C805 /* FlinkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C520430325BBCE0B0012C805 /* FlinkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C520431B25BBCE0B0012C805 /* Build configuration list for PBXNativeTarget "FlinkTestTests" */;
+			buildPhases = (
+				C520430025BBCE0B0012C805 /* Sources */,
+				C520430125BBCE0B0012C805 /* Frameworks */,
+				C520430225BBCE0B0012C805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C520430625BBCE0B0012C805 /* PBXTargetDependency */,
+			);
+			name = FlinkTestTests;
+			productName = FlinkTestTests;
+			productReference = C520430425BBCE0B0012C805 /* FlinkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C520430E25BBCE0B0012C805 /* FlinkTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C520431E25BBCE0B0012C805 /* Build configuration list for PBXNativeTarget "FlinkTestUITests" */;
+			buildPhases = (
+				C520430B25BBCE0B0012C805 /* Sources */,
+				C520430C25BBCE0B0012C805 /* Frameworks */,
+				C520430D25BBCE0B0012C805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C520431125BBCE0B0012C805 /* PBXTargetDependency */,
+			);
+			name = FlinkTestUITests;
+			productName = FlinkTestUITests;
+			productReference = C520430F25BBCE0B0012C805 /* FlinkTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C52042E625BBCE090012C805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C52042ED25BBCE090012C805 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C520430325BBCE0B0012C805 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C52042ED25BBCE090012C805;
+					};
+					C520430E25BBCE0B0012C805 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C52042ED25BBCE090012C805;
+					};
+				};
+			};
+			buildConfigurationList = C52042E925BBCE090012C805 /* Build configuration list for PBXProject "FlinkTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C52042E525BBCE090012C805;
+			productRefGroup = C52042EF25BBCE090012C805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C52042ED25BBCE090012C805 /* FlinkTest */,
+				C520430325BBCE0B0012C805 /* FlinkTestTests */,
+				C520430E25BBCE0B0012C805 /* FlinkTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C52042EC25BBCE090012C805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52042FE25BBCE0B0012C805 /* LaunchScreen.storyboard in Resources */,
+				C52042FB25BBCE0B0012C805 /* Assets.xcassets in Resources */,
+				C52042F925BBCE090012C805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520430225BBCE0B0012C805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520430D25BBCE0B0012C805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C52042EA25BBCE090012C805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52042F625BBCE090012C805 /* ViewController.swift in Sources */,
+				C52042F225BBCE090012C805 /* AppDelegate.swift in Sources */,
+				C52042F425BBCE090012C805 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520430025BBCE0B0012C805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C520430925BBCE0B0012C805 /* FlinkTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520430B25BBCE0B0012C805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C520431425BBCE0B0012C805 /* FlinkTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C520430625BBCE0B0012C805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C52042ED25BBCE090012C805 /* FlinkTest */;
+			targetProxy = C520430525BBCE0B0012C805 /* PBXContainerItemProxy */;
+		};
+		C520431125BBCE0B0012C805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C52042ED25BBCE090012C805 /* FlinkTest */;
+			targetProxy = C520431025BBCE0B0012C805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C52042F725BBCE090012C805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52042F825BBCE090012C805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C52042FC25BBCE0B0012C805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52042FD25BBCE0B0012C805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C520431625BBCE0B0012C805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C520431725BBCE0B0012C805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C520431925BBCE0B0012C805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV272CGUK8;
+				INFOPLIST_FILE = FlinkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.FlinkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C520431A25BBCE0B0012C805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV272CGUK8;
+				INFOPLIST_FILE = FlinkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.FlinkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C520431C25BBCE0B0012C805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV272CGUK8;
+				INFOPLIST_FILE = FlinkTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.FlinkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlinkTest.app/FlinkTest";
+			};
+			name = Debug;
+		};
+		C520431D25BBCE0B0012C805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV272CGUK8;
+				INFOPLIST_FILE = FlinkTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.FlinkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlinkTest.app/FlinkTest";
+			};
+			name = Release;
+		};
+		C520431F25BBCE0B0012C805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV272CGUK8;
+				INFOPLIST_FILE = FlinkTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.FlinkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlinkTest;
+			};
+			name = Debug;
+		};
+		C520432025BBCE0B0012C805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV272CGUK8;
+				INFOPLIST_FILE = FlinkTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.FlinkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlinkTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C52042E925BBCE090012C805 /* Build configuration list for PBXProject "FlinkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520431625BBCE0B0012C805 /* Debug */,
+				C520431725BBCE0B0012C805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C520431825BBCE0B0012C805 /* Build configuration list for PBXNativeTarget "FlinkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520431925BBCE0B0012C805 /* Debug */,
+				C520431A25BBCE0B0012C805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C520431B25BBCE0B0012C805 /* Build configuration list for PBXNativeTarget "FlinkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520431C25BBCE0B0012C805 /* Debug */,
+				C520431D25BBCE0B0012C805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C520431E25BBCE0B0012C805 /* Build configuration list for PBXNativeTarget "FlinkTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520431F25BBCE0B0012C805 /* Debug */,
+				C520432025BBCE0B0012C805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C52042E625BBCE090012C805 /* Project object */;
+}
