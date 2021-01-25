@@ -18,6 +18,7 @@
 		C520432525BC69990012C805 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520432425BC69990012C805 /* CharactersModel.swift */; };
 		C520432A25BC74CE0012C805 /* SingleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520432925BC74CE0012C805 /* SingleCellView.swift */; };
 		C520432F25BE32EF0012C805 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520432E25BE32EF0012C805 /* SearchBarView.swift */; };
+		C5D7746F25BE8E2400D4309C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7746E25BE8E2400D4309C /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C520432425BC69990012C805 /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
 		C520432925BC74CE0012C805 /* SingleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCellView.swift; sourceTree = "<group>"; };
 		C520432E25BE32EF0012C805 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		C5D7746E25BE8E2400D4309C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,7 @@
 			children = (
 				C52042F125BBCE090012C805 /* AppDelegate.swift */,
 				C52042F325BBCE090012C805 /* SceneDelegate.swift */,
-				C52042F525BBCE090012C805 /* ViewController.swift */,
+				C5D7746225BE8DAA00D4309C /* Controller */,
 				C52042F725BBCE090012C805 /* Main.storyboard */,
 				C52042FA25BBCE0B0012C805 /* Assets.xcassets */,
 				C52042FC25BBCE0B0012C805 /* LaunchScreen.storyboard */,
@@ -135,6 +137,15 @@
 				C520431525BBCE0B0012C805 /* Info.plist */,
 			);
 			path = FlinkTestUITests;
+			sourceTree = "<group>";
+		};
+		C5D7746225BE8DAA00D4309C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C52042F525BBCE090012C805 /* ViewController.swift */,
+				C5D7746E25BE8E2400D4309C /* DetailsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				C520432525BC69990012C805 /* CharactersModel.swift in Sources */,
 				C52042F225BBCE090012C805 /* AppDelegate.swift in Sources */,
 				C52042F425BBCE090012C805 /* SceneDelegate.swift in Sources */,
+				C5D7746F25BE8E2400D4309C /* DetailsViewController.swift in Sources */,
 				C520432F25BE32EF0012C805 /* SearchBarView.swift in Sources */,
 				C520432A25BC74CE0012C805 /* SingleCellView.swift in Sources */,
 			);

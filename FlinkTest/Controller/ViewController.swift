@@ -11,8 +11,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     private var data: CharactersModel!
     private var realData: CharactersModel!
-    
     @IBOutlet weak var collectionView: UICollectionView!
+    
+    
+    
+    var names: String?
+    var species: String?
+    var status: String?
+    var image: String?
     override func viewDidLoad() {
         super.viewDidLoad()
         let url = URL(string: "https://rickandmortyapi.com/api/character/")!
@@ -39,13 +45,16 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
         return 20
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let singleCell: SingleCellView = collectionView.dequeueReusableCell(withReuseIdentifier: "singleCell", for: indexPath) as! SingleCellView
         singleCell.charName.text = self.data?.results[indexPath.item].name
+        names =  self.data?.results[indexPath.item].name
+        status = self.data?.results[indexPath.item].status
+        species = self.data?.results[indexPath.item].species
+        image = self.data?.results[indexPath.item].image
         DispatchQueue.main.async {
             singleCell.charImg.load(urlString: (self.data?.results[indexPath.item].image!)!)
         }
@@ -71,6 +80,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         self.collectionView.reloadData()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "details" {
+            let destinationVC = segue.destination as! DetailsViewController
+            destinationVC.namelbl = names
+            destinationVC.image = image
+        }
+    }
+    
 }
 extension UIImageView {
     func load(urlString: String) {
